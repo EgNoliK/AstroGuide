@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>События — AstroGuide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container px-4">
+    <a class="navbar-brand" href="index.html">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      AstroGuide
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav mx-auto gap-4">
+        <li class="nav-item"><a class="nav-link" href="map.html">Карта неба</a></li>
+        <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+        <li class="nav-item"><a class="nav-link active" href="events.html">События</a></li>
+        <li class="nav-item"><a class="nav-link" href="education.html">Обучение</a></li>
+      </ul>
+      <a href="login.html" class="btn btn-outline-custom rounded-pill">Войти</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container px-4 py-5 mt-4">
+  
+ 
+  <section>
+    <div class="d-flex justify-content-between align-items-end mb-4">
+      <div>
+        <div class="section-label">ВАШ ВЕЧЕР ПОД ЗВЁЗДАМИ</div>
+        <h1 class="section-title mb-0">Что наблюдать сегодня</h1>
+      </div>
+      <a href="#" class="text-accent text-decoration-none small d-none d-md-block">План наблюдений ↗</a>
+    </div>
+
+    <div class="events-hero-grid">
+   
+      <div class="moon-card">
+        <img src="img/moon.png" alt="Луна" class="moon-img">
+        <div>
+          <div class="text-secondary small mb-1">25 ОКТЯБРЯ 2026</div>
+          <h3 class="text-white mb-1">Растущая Луна</h3>
+          <div class="text-warning small mb-2">Освещено 98%</div>
+          <p class="text-secondary small mb-0" style="max-width: 250px;">Яркая ночь для лунных морей и кратеров.</p>
+        </div>
+      </div>
+
+  
+      <div class="facts-list">
+        <div class="fact-item">
+          <div class="fact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <div class="fact-text">
+            <h5>Луна — главный ориентир</h5>
+            <p>Рассмотрите море Дождей и лучи кратера Тихо.</p>
+          </div>
+          <div class="fact-time">В бинокль</div>
+        </div>
+
+        <div class="fact-item">
+          <div class="fact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="fact-text">
+            <h5>Плеяды над восточным горизонтом</h5>
+            <p>Найдите компактное скопление в созвездии Тельца.</p>
+          </div>
+          <div class="fact-time">После 21:00</div>
+        </div>
+
+        <div class="fact-item">
+          <div class="fact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <div class="fact-text">
+            <h5>Дайте глазам привыкнуть к темноте</h5>
+            <p>Уберите яркий экран на 20 минут перед наблюдением.</p>
+          </div>
+          <div class="fact-time">Совет</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="mt-5 pt-5">
+    <div class="d-flex justify-content-between align-items-end mb-4">
+      <div>
+        <div class="section-label">У КАЖДОГО ОБЪЕКТА — СВОЯ ИСТОРИЯ</div>
+        <h2 class="section-title mb-0">Далеко. Но уже знакомо.</h2>
+        <p class="page-desc mt-2">От ближайших звёзд до островов из миллиардов солнц. Начните с трёх удивительных объектов осеннего неба.</p>
+      </div>
+      <a href="catalog.html" class="text-accent text-decoration-none small d-none d-md-block">Весь каталог ↗</a>
+    </div>
+
+    <div class="objects-grid">
+ 
+      <a href="object.html" class="object-card text-decoration-none">
+        <div class="position-relative">
+          <img src="img/andromeda.png" class="object-card-img" alt="Галактика Андромеды">
+          <div class="bookmark-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          </div>
+        </div>
+        <div class="object-card-content">
+          <div class="object-card-category">Галактика · Андромеда</div>
+          <h5 class="object-card-title">Галактика Андромеды</h5>
+          <div class="object-card-meta">
+            <span>2,54 млн св. лет</span>
+            <span class="star-rating">★ 3,4m</span>
+          </div>
+          <div class="mt-3 pt-3 border-top border-secondary d-flex justify-content-between align-items-center" style="border-color: #1e293b !important;">
+            <span class="small text-muted">В бинокль</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </div>
+        </div>
+      </a>
+
+      <a href="object.html" class="object-card text-decoration-none">
+        <div class="position-relative">
+          <img src="img/orion.png" class="object-card-img" alt="Туманность Ориона">
+          <div class="bookmark-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          </div>
+        </div>
+        <div class="object-card-content">
+          <div class="object-card-category">Туманность · Орион</div>
+          <h5 class="object-card-title">Туманность Ориона</h5>
+          <div class="object-card-meta">
+            <span>1 344 св. года</span>
+            <span class="star-rating">★ 4,0m</span>
+          </div>
+          <div class="mt-3 pt-3 border-top border-secondary d-flex justify-content-between align-items-center" style="border-color: #1e293b !important;">
+            <span class="small text-muted">В бинокль</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </div>
+        </div>
+      </a>
+
+    
+      <a href="object.html" class="object-card text-decoration-none">
+        <div class="position-relative">
+          <img src="img/pleiades.png" class="object-card-img" alt="Плеяды">
+          <div class="bookmark-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m19 21-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          </div>
+        </div>
+        <div class="object-card-content">
+          <div class="object-card-category">Звёздное скопление · Телец</div>
+          <h5 class="object-card-title">Плеяды</h5>
+          <div class="object-card-meta">
+            <span>444 св. года</span>
+            <span class="star-rating">★ 1,6m</span>
+          </div>
+          <div class="mt-3 pt-3 border-top border-secondary d-flex justify-content-between align-items-center" style="border-color: #1e293b !important;">
+            <span class="small text-muted">Невооружённым глазом</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <p class="text-muted small mt-4" style="font-size: 0.75rem;">m — видимая звёздная величина. Чем меньше значение, тем ярче объект.</p>
+  </section>
+
+  <section class="mt-5 pt-4">
+    <div class="d-flex justify-content-between align-items-end mb-4">
+      <div>
+        <div class="section-label">НЕ ПРОПУСТИТЕ ГЛАВНОЕ</div>
+        <h2 class="section-title mb-0">У Вселенной есть планы</h2>
+      </div>
+      <a href="#" class="text-accent text-decoration-none small d-none d-md-block">Все события ↗</a>
+    </div>
+
+    <div class="events-bottom-grid">
+
+      <a href="#" class="event-large-card text-decoration-none" style="background-image: url('img/leonids.png');">
+        <div class="d-flex gap-2 mb-2">
+          <span class="badge-custom" style="background: rgba(255,255,255,0.1);">17-18 НОЯБРЯ</span>
+          <span class="badge-accent" style="background: transparent; color: #60a5fa;">МЕТЕОРНЫЙ ПОТОК</span>
+        </div>
+        <h3 class="text-white mb-2">Ночь Леонид</h3>
+        <p class="text-muted small mb-3">До 15 метеоров в час. Ищите радиант во Льве после полуночи, вдали от городских огней.</p>
+        <span class="text-accent small">Как подготовиться ↗</span>
+      </a>
+
+   
+      <div class="event-small-list">
+        <a href="#" class="event-small-item">
+          <div class="event-date">
+            13–14
+            <span>ДЕКАБРЯ</span>
+          </div>
+          <div class="flex-grow-1">
+            <div class="text-accent small mb-1" style="font-size: 0.7rem; letter-spacing: 1px;">МЕТЕОРНЫЙ ПОТОК</div>
+            <h4 class="text-white mb-2">Геминиды</h4>
+            <p class="text-muted small mb-0">Один из самых ярких звёздопадов года: до 120 метеоров в час в идеальных условиях.</p>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+
+        <a href="#" class="event-small-item" style="border-bottom: none;">
+          <div class="event-date">
+            21
+            <span>ДЕКАБРЯ</span>
+          </div>
+          <div class="flex-grow-1">
+            <div class="text-accent small mb-1" style="font-size: 0.7rem; letter-spacing: 1px;">СМЕНА СЕЗОНОВ</div>
+            <h4 class="text-white mb-2">Зимнее солнцестояние</h4>
+            <p class="text-muted small mb-0">Самая длинная ночь года в Северном полушарии. Больше времени, чтобы смотреть вверх.</p>
+          </div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="container px-4">
+    <div class="row">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <a class="navbar-brand d-flex align-items-center gap-2 mb-3" href="index.html" style="color: #fff; font-size: 1.25rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          AstroGuide
+        </a>
+        <p style="max-width: 250px; line-height: 1.6;">Вселенная ближе, чем кажется. Ваш проводник от первого созвездия до далёких галактик.</p>
+      </div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h6>Исследуйте</h6>
+        <ul>
+          <li><a href="map.html">Карта неба</a></li>
+          <li><a href="catalog.html">Каталог объектов</a></li>
+          <li><a href="events.html">Календарь событий</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h6>Узнавайте</h6>
+        <ul>
+          <li><a href="education.html">Основы астрономии</a></li>
+          <li><a href="education.html">Гид наблюдателя</a></li>
+          <li><a href="#">О проекте</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6>На одной орбите</h6>
+        <ul style="flex-direction: row; gap: 1.5rem;">
+          <li><a href="#">Telegram ↗</a></li>
+          <li><a href="#">ВКонтакте ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 AstroGuide. Смотрите выше.</div>
+      <div class="d-flex gap-4">
+        <a href="#">Политика конфиденциальности</a>
+        <span>Данные: SIMBAD · NASA / ESA</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

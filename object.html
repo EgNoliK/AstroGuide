@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Галактика Андромеды — AstroGuide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container px-4">
+    <a class="navbar-brand" href="index.html">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      AstroGuide
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav mx-auto gap-4">
+        <li class="nav-item"><a class="nav-link" href="map.html">Карта неба</a></li>
+        <li class="nav-item"><a class="nav-link active" href="catalog.html">Каталог</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">События</a></li>
+        <li class="nav-item"><a class="nav-link" href="education.html">Обучение</a></li>
+      </ul>
+      <a href="login.html" class="btn btn-outline-custom rounded-pill">Войти</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container px-4 py-4">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+      <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Галактика Андромеды</li>
+    </ol>
+  </nav>
+
+  <div class="row g-5">
+    <div class="col-lg-8">
+      <img src="img/andromeda.png" alt="Туманность Андромеды">
+      
+      <div class="object-tag">Галактика</div>
+      <h1 class="object-title">Галактика Андромеды</h1>
+      <p class="object-desc">
+        Галактика Андромеды (M 31, NGC 224) — спиральная галактика, ближайшая к Млечному Пути. 
+        Она находится на расстоянии около 2,54 миллиона световых лет от Земли в созвездии Андромеды. 
+        Это самый удалённый объект, который можно увидеть невооружённым глазом в ясную тёмную ночь.
+      </p>
+      <p class="object-desc">
+        Галактика содержит около одного триллиона звёзд, что примерно в 2,5 раза больше, чем в нашем Млечном Пути. 
+        Её диаметр составляет около 220 000 световых лет. Через несколько миллиардов лет Андромеда и Млечный Путь столкнутся и сольются в одну гигантскую галактику.
+      </p>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="specs-card">
+        <h5 class="specs-title">Характеристики</h5>
+        
+        <div class="spec-row">
+          <span class="spec-label">Каталожный номер</span>
+          <span class="spec-value">M 31</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Тип объекта</span>
+          <span class="spec-value">Спиральная галактика</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Созвездие</span>
+          <span class="spec-value">Андромеда</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Расстояние</span>
+          <span class="spec-value">2,54 млн св. лет</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Видимая величина</span>
+          <span class="spec-value">★ 3.4m</span>
+        </div>
+        <div class="spec-row">
+          <span class="spec-label">Видимость</span>
+          <span class="spec-value">Невооружённым глазом</span>
+        </div>
+        <div class="spec-row mb-4">
+          <span class="spec-label">Сезон наблюдения</span>
+          <span class="spec-value">Осень</span>
+        </div>
+
+        <div class="d-grid gap-2">
+          <a href="map.html" class="btn btn-primary-custom">Найти на карте</a>
+          <a href="catalog.html" class="btn btn-secondary-custom">← Вернуться в каталог</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container px-4">
+    <div class="row">
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <a class="navbar-brand d-flex align-items-center gap-2 mb-3" href="index.html" style="color: #fff; font-size: 1.25rem;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          AstroGuide
+        </a>
+        <p style="max-width: 250px; line-height: 1.6;">Вселенная ближе, чем кажется. Ваш проводник от первого созвездия до далёких галактик.</p>
+      </div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h6>Исследуйте</h6>
+        <ul>
+          <li><a href="map.html">Карта неба</a></li>
+          <li><a href="catalog.html">Каталог объектов</a></li>
+          <li><a href="events.html">Календарь событий</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-4 mb-lg-0">
+        <h6>Узнавайте</h6>
+        <ul>
+          <li><a href="education.html">Основы астрономии</a></li>
+          <li><a href="education.html">Гид наблюдателя</a></li>
+          <li><a href="#">О проекте</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6>На одной орбите</h6>
+        <ul style="flex-direction: row; gap: 1.5rem;">
+          <li><a href="#">Telegram ↗</a></li>
+          <li><a href="#">ВКонтакте ↗</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 AstroGuide. Смотрите выше.</div>
+      <div class="d-flex gap-4">
+        <a href="#">Политика конфиденциальности</a>
+        <span>Данные: SIMBAD · NASA / ESA</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
